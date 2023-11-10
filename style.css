@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: right;
+    height: 10rem;
+    font-size: 1.3rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.65);
+}
+
+header h1 {
+    padding-right: 1.3rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+li {
+    list-style: none;
+}
+
+.description, .information, .contact {
+    margin: 1rem;
+}
+
+.product-card {
+    margin: 0.5rem 0.5rem 0 0.5rem;
+    border: 1px solid rgba(128, 128, 128, 0.65);
+}
+
+.product-card p {
+    padding: .5rem;
+    border-top: 1px solid rgba(128, 128, 128, 0.65);
+}
+
+.products img {
+    width: 15rem;
+    height: 10rem;
+    padding: .5rem;
+}
+
+.products h2 {
+    text-align: center;
+}
+
+th, td {
+    padding: .5rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+form h4, h3 {
+    margin: 0.7rem 0 0.2rem 0;
+}
+
+input, textarea, .submit-btn {
+    padding: .5rem;
+    border: 1px solid rgba(128, 128, 128, 0.65);
+}
+
+.submit-btn {
+    width: 10rem;
+    margin-top: 0.5rem;
+    background: none;
+}
+
+footer {
+    background-color: rgba(128, 128, 128, 0.32);
+    height: 15rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.icon-list {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin: 0 0.5rem 0 0.5rem;
+    font-size: 1.8rem;
+}

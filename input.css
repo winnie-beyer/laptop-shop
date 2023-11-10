@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+  background-image: url("../images/hero.jpg");
+  height:200px;
+  width:100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* h1 {
+    padding-right: 7rem;
+} */
+main {
+    margin-top: 200px;
+}
+
+a[target="_blank"]::after {
+    content: ' \f35d';
+    display: inline-block;
+    font-family:"FontAwesome" ;
+    width: 12px;
+    height: 12px;
+}
+
+table tr:nth-child(2n) {
+    background-color: gray;
+}
